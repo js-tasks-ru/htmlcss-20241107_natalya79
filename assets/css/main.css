@@ -1,4 +1,9 @@
+@import url('../normalise.css');
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
@@ -17,8 +22,14 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --background: #F9FAFC;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 24px;
 }
