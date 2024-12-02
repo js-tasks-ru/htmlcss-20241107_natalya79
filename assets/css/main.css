@@ -4,6 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/container/container.css';
 
 :root {
     --white: #ffffff;
@@ -28,8 +29,4 @@
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
-    color: var(--black);
-    font-size: 16px;
-    line-height: 24px;
 }
