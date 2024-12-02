@@ -15,8 +15,12 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
-    --secondary: var(--purple);
+    --main: #4263EB;
+    --main-dark: #2342C0;
+    --additional: var(--purple);
+    --additional-dark: #5028C6;
+    --alternate: var(--grey-3);
+    --alternate-dark: #212429;
 }
 
 * {

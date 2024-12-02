@@ -10,34 +10,34 @@
 }
 
 .button_type_main {
-    background-color: #4263EB;
-    color: #FFFFFF;
+    background-color: var(--main);
+    color: var(--white);
 }
 
 .button_type_main:hover {
-    background-color: #2342C0;
+    background-color: var(--main-dark);
 }
 
 .button_type_additional {
-    background-color: #7048E8;
+    background-color: var(--additional);
     color: #FFFFFF;
 }
 
 .button_type_additional:hover {
-    background-color: #5028C6;
+    background-color: var(--additional-dark);
 }
 
 .button_type_alternate {
     background-color: transparent;
-    border: 1px solid #ACB5BD;
-    color: #495057;
+    border: 1px solid var(--alternate);
+    color: var(--grey-4);
 }
 
 .button_type_alternate:hover {
-    border-color: #212429;
+    border-color: var(--alternate-dark);
 }
 
-.button_type_disabled {
+.button:disabled {
     opacity: 0.5;
     pointer-events: visiblePainted;
     cursor: not-allowed;
