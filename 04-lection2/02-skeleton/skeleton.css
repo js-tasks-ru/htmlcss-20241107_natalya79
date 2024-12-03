@@ -1,7 +1,6 @@
 .skeleton {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 
     padding: 24px 40px 24px 24px;
 
@@ -11,18 +10,17 @@
 
 .skeleton__top {
     display: flex;
+    align-items: center;
     gap: 16px;
 
-    padding-bottom: 16px;
+    padding-bottom: 24px;
 }
 
-.skeleton__right {
+.skeleton__column {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex: 2;
-
-    padding-top: 8px;
+    flex: 1;
 }
 
 .skeleton__image {
@@ -39,14 +37,14 @@
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
-.skeleton__block-1 {
+.skeleton__block_small {
     width: 30%;   
 }
 
-.skeleton__block-2 {
+.skeleton__block_medium {
     width: 60%;
 }
 
-.skeleton__block-3 {
+.skeleton__block_full{
     width: 100%;
 }
