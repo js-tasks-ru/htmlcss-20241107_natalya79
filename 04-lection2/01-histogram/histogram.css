@@ -6,8 +6,7 @@
 }
 
 .histogram__data-title {
-    margin: 0;
-    padding-bottom: 6px;
+    margin: 0 0 6px;
 
     font-family: 'Inter';
     font-size: 16px;
@@ -49,7 +48,7 @@
 
     height: 50px;
 
-    padding-top: 39px;
+    margin-top: 39px;
 }
 
 .histogram__chart-item {
