@@ -1,4 +1,10 @@
 .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accordion__item {
     padding: 24px 32px;
 
     border: 1px solid var(--grey-3);
@@ -19,15 +25,6 @@
 
 .accordion__title::-webkit-details-marker {
     display: none;
-}
-
-.accordion__title::after {
-    content: url('../../assets/images/arrow-down.svg');
-    padding-right: 0.5em;
-}
-
-.accordion[open] > .accordion__title::after {
-    content: url('../../assets/images/arrow-up.svg');
 }
 
 .accordion__text {
