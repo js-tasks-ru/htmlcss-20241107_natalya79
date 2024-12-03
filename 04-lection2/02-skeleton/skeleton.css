@@ -1,0 +1,50 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+
+    padding: 24px 40px 24px 24px;
+
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding-bottom: 24px;
+}
+
+.skeleton__column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.skeleton__image {
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    background-color: var(--grey-2);
+}
+
+.skeleton__block {
+    height: 20px;
+
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__block_small {
+    width: 30%;   
+}
+
+.skeleton__block_medium {
+    width: 60%;
+}
+
+.skeleton__block_full{
+    width: 100%;
+}
