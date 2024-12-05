@@ -44,17 +44,3 @@
     pointer-events: visiblePainted;
     cursor: not-allowed;
 }
-
-.button_close {
-    width: 16px;
-    height: 16px;
-
-    padding: 0;
-
-    background-color: transparent;
-
-    background-image: url(../../assets/images/close.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
