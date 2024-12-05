@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 350px;
+    height: 367px;
+    padding: 30px 24px 30px 26px;
+    box-sizing: border-box;
+
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px #2124290D;
+}
+
+.card__preview {
+    margin: auto 0;
+}
+
+.card__title {
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    text-align: center;
+}
