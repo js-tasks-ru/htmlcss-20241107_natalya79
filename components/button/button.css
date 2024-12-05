@@ -1,0 +1,46 @@
+.button {
+    height: 48px;
+    padding: 15px 66px 14px;
+    
+    border-radius: 8px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.button_main {
+    background-color: var(--main);
+    color: var(--white);
+}
+
+.button_main:hover {
+    background-color: var(--main-dark);
+}
+
+.button_additional {
+    background-color: var(--additional);
+    color: #FFFFFF;
+}
+
+.button_additional:hover {
+    background-color: var(--additional-dark);
+}
+
+.button_alternate {
+    background-color: transparent;
+    border: 1px solid var(--alternate);
+    color: var(--grey-4);
+}
+
+.button_alternate:hover {
+    border-color: var(--alternate-dark);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: visiblePainted;
+    cursor: not-allowed;
+}
