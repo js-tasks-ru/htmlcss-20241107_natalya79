@@ -2,6 +2,12 @@
     padding: 71px 0 136px;
 }
 
+.footer_component {
+    padding: 92px 0 56px;
+
+    background-color: var(--background);
+}
+
 .footer__title {
     margin: 0;
     padding-bottom: 32px;
@@ -11,6 +17,17 @@
     line-height: 48px;
     text-align: center;
 
+}
+
+.footer__title_component {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }
 
 .footer__description {
